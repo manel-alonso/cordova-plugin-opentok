@@ -322,6 +322,7 @@ var TBPublisher,
 
 TBPublisher = (function() {
   function TBPublisher(one, two) {
+    console.log("test!");
     this.removePublisherElement = __bind(this.removePublisherElement, this);
     this.streamDestroyed = __bind(this.streamDestroyed, this);
     this.streamCreated = __bind(this.streamCreated, this);
